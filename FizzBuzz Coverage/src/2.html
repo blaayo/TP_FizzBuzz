@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Blaayosoft\Documents\Mega\Etude\Ecole - EPSI\B3 [2020 - 2021]\Modules\Atelier - Tests unit et de charge\TP\TP - FizzBuzz\FizzBuzz.Tests\FizzBuzzGameTest.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TP___FizzBuzz;
+
+namespace FizzBuzz.Tests
+{
+    [TestClass]
+    public class FizzBuzzGameTest
+    {
+        
+        [TestMethod] // Si le nombre est 0 ou n&#233;gatif -&gt; Une erreur est lev&#233;e.
+        public void should_throw_if_is_0_or_negative()
+        {
+            Assert.ThrowsException&lt;ArgumentException&gt;(() =&gt; FizzBuzzGame.play(0));
+            Assert.ThrowsException&lt;ArgumentException&gt;(() =&gt; FizzBuzzGame.play(-1));
+        }
+        
+        [TestMethod] // Si le nombre est un multiple de 3 -&gt; Fizz.
+        public void should_return_Fizz_if_modulo_3()
+        {
+            Assert.AreEqual(&quot;Fizz&quot;,FizzBuzzGame.play(3));
+            Assert.AreEqual(&quot;Fizz&quot;,FizzBuzzGame.play(6));
+        }
+        
+        [TestMethod] // Si le nombre est un multiple de 5 -&gt; Buzz.
+        public void should_return_Buzz_if_modulo_5()
+        {
+            Assert.AreEqual(&quot;Buzz&quot;,FizzBuzzGame.play(5));
+            Assert.AreEqual(&quot;Buzz&quot;,FizzBuzzGame.play(10));
+        }
+        
+        [TestMethod] // Si le nombre est un multiple de 3 et de 5 -&gt; FizzBuzz.
+        public void should_return_FizzBuzz_if_modulo_3_and_5()
+        {
+            Assert.AreEqual(&quot;FizzBuzz&quot;,FizzBuzzGame.play(15));
+            Assert.AreEqual(&quot;FizzBuzz&quot;,FizzBuzzGame.play(30));
+        }
+        
+        [TestMethod] // Si aucun des cas pr&#233;c&#233;dents, r&#233;p&#232;te le nombre de Alice.
+        public void should_return_number_if_not_modulo_3_or_5()
+        {
+            Assert.AreEqual(&quot;1&quot;,FizzBuzzGame.play(1));
+            Assert.AreEqual(&quot;2&quot;,FizzBuzzGame.play(2));
+        }
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[13,9,13,10,1],[14,13,14,61,1],[14,61,14,81,1],[14,81,14,83,1],[14,13,14,83,1],[15,13,15,61,1],[15,61,15,82,1],[15,82,15,84,1],[15,13,15,84,1],[16,9,16,10,1],[20,9,20,10,1],[21,13,21,58,1],[22,13,22,58,1],[23,9,23,10,1],[27,9,27,10,1],[28,13,28,58,1],[29,13,29,59,1],[30,9,30,10,1],[34,9,34,10,1],[35,13,35,63,1],[36,13,36,63,1],[37,9,37,10,1],[41,9,41,10,1],[42,13,42,55,1],[43,13,43,55,1],[44,9,44,10,1]]);
+    </script>
+  </body>
+</html>

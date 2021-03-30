@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Blaayosoft\Documents\Mega\Etude\Ecole - EPSI\B3 [2020 - 2021]\Modules\Atelier - Tests unit et de charge\TP\TP - FizzBuzz\TP - FizzBuzz\FizzBuzzGame.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using System;
+using System.Linq;
+
+namespace TP___FizzBuzz
+{
+    public class FizzBuzzGame
+    {
+        public static string play(int number)
+        {
+            string response = null;
+            if (number &lt;= 0 ) throw new ArgumentException();
+            if (number % 3 == 0) response += &quot;Fizz&quot;;
+            if (number % 5 == 0) response += &quot;Buzz&quot;;
+            return response ?? number.ToString();
+        }
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[9,9,9,10,1],[10,13,10,36,1],[11,13,11,30,1],[11,31,11,61,1],[12,13,12,33,1],[12,34,12,53,1],[13,13,13,33,1],[13,34,13,53,1],[14,13,14,50,1],[15,9,15,10,1]]);
+    </script>
+  </body>
+</html>

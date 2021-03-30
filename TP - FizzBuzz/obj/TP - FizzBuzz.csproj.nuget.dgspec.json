@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Blaayosoft\\Documents\\Mega\\Etude\\Ecole - EPSI\\B3 [2020 - 2021]\\Modules\\Atelier - Tests unit et de charge\\TP\\TP_FizzBuzz\\TP - FizzBuzz\\TP - FizzBuzz.csproj": {}
+  },
+  "projects": {
+    "D:\\Blaayosoft\\Documents\\Mega\\Etude\\Ecole - EPSI\\B3 [2020 - 2021]\\Modules\\Atelier - Tests unit et de charge\\TP\\TP_FizzBuzz\\TP - FizzBuzz\\TP - FizzBuzz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Blaayosoft\\Documents\\Mega\\Etude\\Ecole - EPSI\\B3 [2020 - 2021]\\Modules\\Atelier - Tests unit et de charge\\TP\\TP_FizzBuzz\\TP - FizzBuzz\\TP - FizzBuzz.csproj",
+        "projectName": "TP - FizzBuzz",
+        "projectPath": "D:\\Blaayosoft\\Documents\\Mega\\Etude\\Ecole - EPSI\\B3 [2020 - 2021]\\Modules\\Atelier - Tests unit et de charge\\TP\\TP_FizzBuzz\\TP - FizzBuzz\\TP - FizzBuzz.csproj",
+        "packagesPath": "C:\\Users\\Blaayosoft\\.nuget\\packages\\",
+        "outputPath": "D:\\Blaayosoft\\Documents\\Mega\\Etude\\Ecole - EPSI\\B3 [2020 - 2021]\\Modules\\Atelier - Tests unit et de charge\\TP\\TP_FizzBuzz\\TP - FizzBuzz\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Blaayosoft\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Blaayosoft\\.dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
